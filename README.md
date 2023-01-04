@@ -1,4 +1,4 @@
-A moodle plugin that creates a additional URL for articles.
+A ojs plugin that creates a additional URL for articles.
 
 Example. The URL:
 
