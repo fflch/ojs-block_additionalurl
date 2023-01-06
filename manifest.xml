@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <primary_locale>pt_BR</primary_locale>
+  <plugin
+    id="PdfUrlPlugin"
+    system="3.2.1-1"
+    package="PdfUrl"
+    directory="PdfUrl"
+    name="PdfUrl"
+    description="Este plugin muda o final do url, adcionando object_pt_BR."
+    version="1.0.0"
+    date="2022-12-29"
+    author="daniel"
+    email="danielsilva@usp.br"
+    url="http://github.com/danielsf93"
+  >
+  </plugin>
+</manifest>
