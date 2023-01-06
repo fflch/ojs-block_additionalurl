@@ -1,3 +1,3 @@
 <?php
-require_once('PdfUrl.inc.php');
-return new PdfUrlPlugin();
+require_once('AditionalUrl.inc.php');
+return new AditionalUrlPlugin();

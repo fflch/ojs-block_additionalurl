@@ -1,3 +1,5 @@
+*****THIS STILL DOESN'T WORK!!!*****
+
 A ojs plugin that creates a additional URL for articles.
 
 Example. The URL:
@@ -14,3 +16,9 @@ Using:
 
     cd plugins/blocks
     git clone git remote add origin git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+
+
+So far it is configured to work by adding only object_pt_BR at the end of the url.
+
+
+*****THIS STILL DOESN'T WORK!!!*****
