@@ -1,8 +1,8 @@
 <version>
-<application>PdfUrlPlugin</application>
+<application>AditionalUrl</application>
 <type>plugins.generic</type>
 <release>3.2.1-1</release>
 <date>2023-01-06</date>
 <lazy-load>1</lazy-load>
-<class>PdfUrlPlugin</class>
+<class>AditionalUrl</class>
 </version>

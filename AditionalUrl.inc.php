@@ -3,29 +3,29 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 
 
 
-class PdfUrlPlugin extends GenericPlugin {
+class AditionalUrlPlugin extends GenericPlugin {
   public function getName() {
-    return 'UrlPdf';
+    return 'AditionalUrl';
   }
 
   public function getDisplayName() {
-    return 'UrlPdf';
+    return 'AditionalUrl';
   }
 
   public function getDescription() {
-    return 'Este plugin muda o final do url, adcionando object_pt_BR.';
+    return 'A ojs plugin that creates a additional URL for articles.';
   }
 
   public function register($category, $path) {
     if (parent::register($category, $path)) {
-      // Register the "UrlPdf" hook
-      HookRegistry::register('UrlPdf', array(&$this, 'UrlPdf'));
+      // Register the "AditionalUrl" hook
+      HookRegistry::register('AditionalUrl', array(&$this, 'AditionalUrl'));
       return true;
     }
     return false;
   }
 
-  public function UrlPdf($hookName, $args) {
+  public function AditionalUrl($hookName, $args) {
     $request = $args[0];
     $router = $args[1];
 
