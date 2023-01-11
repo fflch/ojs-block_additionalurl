@@ -3,13 +3,13 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 
 
 
-class AditionalUrlPlugin extends GenericPlugin {
+class AdditionalUrlPlugin extends GenericPlugin {
   public function getName() {
-    return 'AditionalUrl';
+    return 'AdditionalUrl';
   }
 
   public function getDisplayName() {
-    return 'AditionalUrl';
+    return 'AdditionalUrl';
   }
 
   public function getDescription() {
@@ -18,14 +18,14 @@ class AditionalUrlPlugin extends GenericPlugin {
 
   public function register($category, $path) {
     if (parent::register($category, $path)) {
-      // Register the "AditionalUrl" hook
-      HookRegistry::register('AditionalUrl', array(&$this, 'AditionalUrl'));
+      // Register the "AdditionalUrl" hook
+      HookRegistry::register('AdditionalUrl', array(&$this, 'AdditionalUrl'));
       return true;
     }
     return false;
   }
 
-  public function AditionalUrl($hookName, $args) {
+  public function AdditionalUrl($hookName, $args) {
     $request = $args[0];
     $router = $args[1];
 

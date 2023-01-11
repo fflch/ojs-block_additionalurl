@@ -1,3 +1,3 @@
 <?php
-require_once('AditionalUrl.inc.php');
-return new AditionalUrlPlugin();
+require_once('AdditionalUrl.inc.php');
+return new AdditionalUrlPlugin();
