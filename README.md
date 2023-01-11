@@ -15,7 +15,7 @@ Could be accessed too accordingly with article language:
 Using:
 
     cd plugins/generic
-    git clone git remote add origin git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+    git clone git@github.com:fflch/ojs-block_additionalurl.git additionalurl
 
 
 So far it is configured to work by adding only object_pt_BR at the end of the url.
