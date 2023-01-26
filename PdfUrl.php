@@ -18,7 +18,7 @@ class PdfUrl extends GenericPlugin {
    * enable and disable plugins.
    */
 	public function getDisplayName() {
-		return 'Corrige URL plugin';
+		return __('plugins.generic.get.displayName');
 	}
 
 	/**
@@ -28,6 +28,6 @@ class PdfUrl extends GenericPlugin {
    * enable and disable plugins.
    */
 	public function getDescription() {
-		return 'Corrige URL plugin';
+		return __('plugins.generic.get.description');
 	}
 }
