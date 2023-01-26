@@ -11,11 +11,11 @@ msgstr ""
 "PO-Revision-Date: 2021-02-11T02:08:20+00:00\n"
 "Language: pt_BR\n"
 
-msgid "plugins.block.get.displayName"
+msgid "plugins.generic.get.displayName"
 msgstr "Corrige URL para indexação."
 
-msgid "plugins.block.get.description"
+msgid "plugins.generic.get.description"
 msgstr "Corrige a URL a partir do Template para a melhor Indexação no google, baseado na língua do artigo."
 
-msgid "plugins.block.get.title"
+msgid "plugins.generic.get.title"
 msgstr "Corrige URL para indexação."

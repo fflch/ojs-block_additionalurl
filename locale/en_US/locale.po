@@ -11,11 +11,11 @@ msgstr ""
 "PO-Revision-Date: 2021-02-11T02:08:20+00:00\n"
 "Language: en-US\n"
 
-msgid "plugins.block.get.displayName"
+msgid "plugins.generic.get.displayName"
 msgstr "Fix URL for indexing."
 
-msgid "plugins.block.get.description"
+msgid "plugins.generic.get.description"
 msgstr "Fix the URL from the Template for better Indexing in google, based on the language of the article."
 
-msgid "plugins.block.get.title"
+msgid "plugins.generic.get.title"
 msgstr "Fix URL for indexing."
