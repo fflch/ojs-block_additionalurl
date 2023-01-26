@@ -58,8 +58,7 @@
 {/if}
 
 {* Don't be frightened. This is just a link *}
-{* Alterei essa linha, adicionando o object_pt_BR, porem agora precisamos descobrir a lingua do PDF e fazer um if para todas as linguas existentes nas revistas da USP. *}
-<a class="{if $isSupplementary}obj_galley_link_supplementary{else}obj_galley_link{/if} {$type|escape}{if $restricted} restricted{/if}" href="{url page=$page op="view" path=$path}/object_pt_BR"{if $labelledBy} aria-labelledby={$labelledBy}{/if}>
+<a class="{if $isSupplementary}obj_galley_link_supplementary{else}obj_galley_link{/if} {$type|escape}{if $restricted} restricted{/if}" href="{url page=$page op="view" path=$path}/object_{$galley->getLocale()} "{if $labelledBy} aria-labelledby={$labelledBy}{/if}>
 
 	{* Add some screen reader text to indicate if a galley is restricted *}
 	{if $restricted}
