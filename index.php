@@ -1,3 +1,3 @@
 <?php
-require_once('PdfUrl.php');
-return new PdfUrl();
+require_once('pdfUrl.php');
+return new pdfUrl();
