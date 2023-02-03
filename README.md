@@ -9,7 +9,7 @@ Example, the url of a PDF file written in English, which originally has the link
 
 when clicked becomes
 
-    https://www.revistas.usp.br/organicom/article/view/197779/188335/object_en_US.pdf
+    https://www.revistas.usp.br/organicom/article/view/197779/188335/en_US
     
 The link will be automatically modified according to the language of the article (en_US, pt_BR, id_ID, etc).   
     
@@ -31,8 +31,8 @@ Exemplo, a url de um arquivo PDF escrito em Português, que originalmente conté
 
 quando clicado torna-se
 
-      https://www.revistas.usp.br/organicom/article/view/197779/188335/object_pt_BR.pdf
-    
+      https://www.revistas.usp.br/organicom/article/view/197779/188335/pt_BR
+      
 O link será modificado automaticamente de acordo com o idioma do artigo (en_US, pt_BR, id_ID, etc).
     
 
@@ -53,7 +53,7 @@ Ejemplo, la url de un archivo PDF escrito en Español, que originalmente contien
 
 cuando se hace clic se convierte en
 
-       https://www.revistas.usp.br/organicom/article/view/197779/188335/object_es_ES.pdf
+       https://www.revistas.usp.br/organicom/article/view/197779/188335/es_ES
     
 El enlace se modificará automáticamente según el idioma del artículo (en_US, pt_BR, id_ID, etc).
     
@@ -75,7 +75,7 @@ Contoh, url file PDF yang ditulis dalam bahasa Indonesia, yang aslinya berisi ta
 
 ketika diklik menjadi
 
-       https://www.revistas.usp.br/organicom/article/view/197779/188335/object_id_ID.pdf
+       https://www.revistas.usp.br/organicom/article/view/197779/188335/id_ID
     
 Tautan akan diubah secara otomatis sesuai dengan bahasa artikel (en_US, pt_BR, id_ID, dll).
     
@@ -83,6 +83,6 @@ Tautan akan diubah secara otomatis sesuai dengan bahasa artikel (en_US, pt_BR, i
 Menggunakan:
 
     cd plugins/generic
-    git clone git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+    git clone git@github.com:fflch/ojs-block_additionalurl.git
 
 ***Developed by STI FFLCH USP***
