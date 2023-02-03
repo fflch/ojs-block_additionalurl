@@ -17,7 +17,7 @@ The link will be automatically modified according to the language of the article
 Using:
 
     cd plugins/generic
-    git clone git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+    git clone git@github.com:fflch/ojs-block_additionalurl.git
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ O link será modificado automaticamente de acordo com o idioma do artigo (en_US,
 Uso:
 
     cd plugins/generic
-    git clone git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+    git clone git@github.com:fflch/ojs-block_additionalurl.git
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -61,7 +61,7 @@ El enlace se modificará automáticamente según el idioma del artículo (en_US,
 Utilizar:
 
     cd plugins/generic
-    git clone git@github.com:fflch/ojs-block_additionalurl.git additionalurl
+    git clone git@github.com:fflch/ojs-block_additionalurl.git
 
 -------------------------------------------------------------------------------------------------------------------
 
