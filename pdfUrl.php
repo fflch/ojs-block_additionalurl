@@ -2,7 +2,7 @@
 
 import('lib.pkp.classes.plugins.GenericPlugin');
 
-class PdfUrl extends GenericPlugin {
+class pdfUrl extends GenericPlugin {
     public function register($category, $path, $mainContextId = NULL) {
         $success = parent::register($category, $path);
             if ($success && $this->getEnabled()) {
