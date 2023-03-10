@@ -2,17 +2,17 @@
 <manifest>
   <primary_locale>pt_BR</primary_locale>
   <plugin
-    id="PdflUrlPlugin"
+    id="pdfUrl"
     system="3.2.1-1"
-    package="PdflUrl"
+    package="pdflUrl"
     directory="pdflurl"
-    name="PdflUrl"
+    name="pdflUrl"
     description="A ojs plugin that creates a additional URL for articles."
     version="1.0.0"
     date="2023-01-25"
     author="STI FFLCH and ABCD USP"
     email="sti.fflch@usp.br"
-    url="https://github.com/fflch/ojs-block_additionalurl/"
+    url="https://github.com/danielsf93/pdfUrl"
   >
   </plugin>
 </manifest>
